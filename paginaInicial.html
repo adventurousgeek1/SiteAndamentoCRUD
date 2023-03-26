@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Bem vindo a pagina inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylePaginaInicial.css">
+</head>
+
+<body>
+        <header>  
+        <a href ="telaLogin.html"><img src="img/image.png" width="100px" height="100px"></a>
+        <a href="cadastrarUser.html"><button class="btn btn-primary">cadastrar</button></a>
+        </header>
+    
+    
+    <main>
+    	<h2>produtos cadastrados</h2>
+    	<table class="table table-success table-striped-columns">
+    		<thead>
+    			<th>id</th>
+    			<th>nome</th>
+    			<th>valor</th>
+    			<th>quantidade</th>
+    			<th>und medida</th>
+    			<th>descricao</th>
+    			<th rowspan="2"></th>
+    		</thead>
+        		<tbody>
+                    <tr>
+            			<td>1</td>
+                        <td>feijao de corda</td>
+                        <td>R$ 5.89</td>
+                        <td>50</td>
+                        <td>KG</td>
+                        <td>o melhor feijao da cidade</td>
+                        <td><button class="btn btn-primary" type="submit">update</button></td>
+                        <td><button class="btn btn-primary" type="submit">delete</button></td>
+        		    </tr>
+                </tbody>	
+    		<tfoot>
+    			
+    		</tfoot>
+    	</table>
+    </main>
+        <footer>
+            <p class="footer"> &copy;Todos os direitos reservados. Desenvolvido pelo Senai. </p>
+            <p> <a href ="#"> Instagram </a><a href ="#"> WhatsApp </a></p>
+        </footer>
+
+</body>
+</html>
